@@ -51,14 +51,14 @@ header {
     gap: 6em;
     height: 60vh;
     padding: 2% 5% 5% 5%;
-    background-image: url("/images/header_background.jpeg");
+    background-image: url("images/header_background.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .header-alt {
-    background-image: url("/images/bg-overzicht-overons.jpeg");
+    background-image: url("images/bg-overzicht-overons.jpeg");
     height: 40vh;
 }
 
@@ -162,54 +162,54 @@ main section article {
 }
 
 main section article:nth-child(1) {
-    background-image: url("/images/afl1.jpeg");
+    background-image: url("images/afl1.jpeg");
 }
 
 main section article:nth-child(2) {
-    background-image: url("/images/afl2.jpeg");
+    background-image: url("images/afl2.jpeg");
 }
 
 main section article:nth-child(3) {
-    background-image: url("/images/afl3.jpeg");
+    background-image: url("images/afl3.jpeg");
 }
 
 main section article:nth-child(4) {
-    background-image: url("/images/afl4.jpeg");
+    background-image: url("images/afl4.jpeg");
 }
 
 main section article:nth-child(5) {
-    background-image: url("/images/afl5.jpeg");
+    background-image: url("images/afl5.jpeg");
 }
 
 main section article:nth-child(6) {
-    background-image: url("/images/afl6.jpeg");
+    background-image: url("images/afl6.jpeg");
 }
 
 main section article.dasha {
-    background-image: url("/images/dasha.jpeg");
+    background-image: url("images/dasha.jpeg");
     transition: background-image 0.5s;
 }
 
 main section article.sam {
-    background-image: url("/images/sam.jpeg");
+    background-image: url("images/sam.jpeg");
     transition: background-image 0.5s;
 }
 
 main section article.jay {
-    background-image: url("/images/jay.jpeg");
+    background-image: url("images/jay.jpeg");
     transition: background-image 0.5s;
 }
 
 main section article.dasha:hover {
-    background-image: url("/images/dasha01.jpeg");
+    background-image: url("images/dasha01.jpeg");
 }
 
 main section article.sam:hover {
-    background-image: url("/images/sam01.jpeg");
+    background-image: url("images/sam01.jpeg");
 }
 
 main section article.jay:hover {
-    background-image: url("/images/jay01.jpeg");
+    background-image: url("images/jay01.jpeg");
 }
 
 section article img {
@@ -260,7 +260,7 @@ main div section {
 }
 
 .teaser-video {
-    background-image: url("/images/video-stil.jpeg");
+    background-image: url("images/video-stil.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
