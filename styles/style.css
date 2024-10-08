@@ -275,6 +275,7 @@ main div section {
 
 .dasha h3, .sam h3, .jay h3 {
     color: var(--secondary-color);
+    text-align: center;
 }
 
 footer {
