@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+:root {
+    --primary-color: #58A4B0;
+    --secondary-color: #007236;
+    --text-color: white;
+    --heading-font: "Iceland", sans-serif;
+    --body-font: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* 1440 64px */
+h1 {
+    font-size: clamp(3.556rem, 4.444vw, 5.333rem);
+}
+
+/* 1440 48px */
+h2 {
+    font-size: clamp(2.667rem, 3.333vw, 4rem);
+}
+
+/* 1440 24px */
+h3 {
+    font-size: clamp(1.333rem, 1.667vw, 2rem);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+    height: 60vh;
+    padding: 2% 5% 5% 5%;
+    background-image: url("/images/header_background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-alt {
+    background-image: url("/images/bg-overzicht-overons.jpeg");
+    height: 40vh;
+}
+
+.header-alt section {
+    width: 100%;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4rem;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 4em;
+    font-family: var(--body-font);
+}
+
+header nav a {
+    font-size: 16px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: var(--secondary-color);
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 0;
+    justify-content: center;
+}
+
+header section p {
+    color: var(--text-color);
+}
+
+header section a {
+    color: var(--text-color);
+    padding: 0.5em 1em;
+    background-color: var(--primary-color);
+    width: 30%;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+header section a:hover {
+    background-color: var(--secondary-color);
+}
+
+header h1 span {
+    color: var(--primary-color);
+}
+
+main {
+    display: flex;
+    width: 90%;
+    gap: 10em;
+    margin: 4em auto;
+    flex-direction: column;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section h2 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+main section div {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+main section article {
+    width: 30%;
+    height: 20em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 1em 1em;
+}
+
+main section article:nth-child(1) {
+    background-image: url("/images/afl1.jpeg");
+}
+
+main section article:nth-child(2) {
+    background-image: url("/images/afl2.jpeg");
+}
+
+main section article:nth-child(3) {
+    background-image: url("/images/afl3.jpeg");
+}
+
+main section article:nth-child(4) {
+    background-image: url("/images/afl4.jpeg");
+}
+
+main section article:nth-child(5) {
+    background-image: url("/images/afl5.jpeg");
+}
+
+main section article:nth-child(6) {
+    background-image: url("/images/afl6.jpeg");
+}
+
+main section article.dasha {
+    background-image: url("/images/dasha.jpeg");
+    transition: background-image 0.5s;
+}
+
+main section article.sam {
+    background-image: url("/images/sam.jpeg");
+    transition: background-image 0.5s;
+}
+
+main section article.jay {
+    background-image: url("/images/jay.jpeg");
+    transition: background-image 0.5s;
+}
+
+main section article.dasha:hover {
+    background-image: url("/images/dasha01.jpeg");
+}
+
+main section article.sam:hover {
+    background-image: url("/images/sam01.jpeg");
+}
+
+main section article.jay:hover {
+    background-image: url("/images/jay01.jpeg");
+}
+
+section article img {
+    width: 20%;
+}
+
+section article h3 {
+    color: var(--text-color);
+}
+
+main section a {
+    text-align: right;
+    color: var(--text-color);
+    padding: 0.5em 1em;
+    background-color: var(--primary-color);
+    transition: background-color 0.3s;
+}
+
+main section a:hover {
+    background-color: var(--secondary-color);
+}
+
+main div {
+    display: flex;
+    justify-content: space-between;
+}
+
+main div img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+main div section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dashes {
+    font-family: var(--heading-font);
+    font-size: clamp(2.667rem, 3.333vw, 4rem);
+    margin: 0;
+}
+
+.section-teaser-video {
+    align-items: center;
+}
+
+.teaser-video {
+    background-image: url("/images/video-stil.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 60%;
+    height: 60vh;
+}
+
+.dasha, .sam, .jay {
+    height: 30em;
+}
+
+.dasha h3, .sam h3, .jay h3 {
+    color: var(--secondary-color);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6em;
+}
+
+footer div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+footer div img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 0.3s;
+}
+
+footer ul a:hover {
+    color: var(--secondary-color);
+}
+
+.copy {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
